@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>Taynftmf.Executr</AssemblyName>
+    <AssemblyVersion>0.1</AssemblyVersion>
+    <AssemblyCompany>Taynftmf</AssemblyCompany>
+    <AssemblyTitle>Taynftmf.Executr</AssemblyTitle>
   </PropertyGroup>
 
   <ItemGroup>
