@@ -3,14 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>Taynftmf.Executr</AssemblyName>
-    <AssemblyVersion>0.1</AssemblyVersion>
-    <AssemblyCompany>Taynftmf</AssemblyCompany>
-    <AssemblyTitle>Taynftmf.Executr</AssemblyTitle>
+    <PackageId>Taynftmf.Executr</PackageId>
+    <Version>0.2.0</Version>
+    <Authors>Alexandru Nedelcu, 7enderhead (Taynftmf)</Authors>
+    <Company>Taynftmf</Company>
+    <Description>Command execution for F#.</Description>
+    <PackageIcon>Taynftmf.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Taynftmf/Taynftmf.Executr</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Library.fs" />
+    <None Include="Taynftmf.png" Pack="true" PackagePath=""/>
+    <None Include="LICENSE" Pack="true" PackagePath=""/>
+    <None Include="README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
